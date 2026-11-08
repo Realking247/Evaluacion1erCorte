@@ -41,6 +41,24 @@ archivos encontrados, sus metadatos y los registros validados del inventario:
 
 ![Prueba del módulo en Google Colab](PruebaColab.png)
 
+## Tarea: interfaz web y ordenamientos
+
+La nueva tarea está en [`interfaz.py`](interfaz.py). El script monta Google
+Drive, crea los archivos de prueba si no existen y muestra una interfaz para
+explorar los archivos.
+
+Incluye:
+
+- Buscador que filtra por nombre o extensión.
+- QuickSort para ordenar los nombres de la A a la Z.
+- BubbleSort para ordenar por tamaño en KB de mayor a menor.
+- Tiempo de cada algoritmo en milisegundos.
+
+Para usarlo, abre el archivo en Google Colab, ejecútalo y autoriza el montaje
+de Drive. La interfaz aparece al final de la celda.
+
+![Interfaz](Interfaz.png)
+
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Consulta [LICENSE](LICENSE).
